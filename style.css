@@ -1,0 +1,107 @@
+body
+			{
+				font-family: Arial, sans-serif;
+				margin: 0;
+				padding: 0;
+				background-color: #f9f9f9;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				min-height: 100vh;
+			}
+
+			h1
+			{
+				font-size: 24px;
+				text-align: center;
+				margin-bottom: 20px;
+				color: #333;
+			}
+
+			.link-btn
+			{
+				display: block;
+				padding: 10px;
+				font-size: 16px;
+				border-radius: 5px;
+				background-color: #AF0D3F;
+				color: white;
+				text-decoration: none;
+				transition: background 0.3s;
+			}
+
+			.link-btn:hover
+			{
+				background-color: #3F0818;
+			}
+
+			.result-block
+			{
+				background-color: #EFEFEF;
+				/* Bleu léger pour les résultats */
+				padding: 20px;
+				margin-bottom: 20px;
+				border-radius: 0;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+				text-align: left;
+			}
+
+			.dropdown
+			{
+				width: 100%;
+				max-width: 300px;
+				padding: 10px;
+				font-size: 16px;
+				margin: 10px auto;
+				display: block;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+				background: white;
+				cursor: pointer;
+			}
+
+			.button-container
+			{
+				display: flex;
+				justify-content: center;
+				/* Centre les blocs horizontalement */
+				width: 100%;
+				max-width: 600px;
+				/* Même largeur que le bloc de résultat */
+				margin: 10px auto;
+				gap: 10px;
+				/* Espacement entre les blocs */
+			}
+
+			.info-block
+			{
+				width: 50%;
+				/* Chaque bloc prend 50% du conteneur */
+				max-width: 280px;
+				/* Ajuste la largeur pour qu'ils soient bien centrés */
+				padding: 15px;
+				background-color: #EFEFEF;
+				text-align: center;
+				border-radius: 5px;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			}
+
+			.return-btn
+			{
+				display: block;
+				margin: 20px auto;
+				padding: 10px 20px;
+				font-size: 16px;
+				border: none;
+				border-radius: 5px;
+				background-color: #78082B;
+				color: white;
+				cursor: pointer;
+				text-align: center;
+				transition: background 0.3s;
+			}
+
+			.return-btn:hover
+			{
+				background-color: #3F0818;
+			}
