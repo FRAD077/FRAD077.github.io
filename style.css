@@ -37,11 +37,11 @@ body
 
 			.result-block
 			{
-				background-color: #EFEFEF;
+				background-color: white;
 				/* Bleu léger pour les résultats */
 				padding: 20px;
 				margin-bottom: 20px;
-				border-radius: 0;
+				border-radius: 5px;
 				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 				text-align: left;
 			}
@@ -80,7 +80,7 @@ body
 				max-width: 280px;
 				/* Ajuste la largeur pour qu'ils soient bien centrés */
 				padding: 15px;
-				background-color: #EFEFEF;
+				background-color: white;
 				text-align: center;
 				border-radius: 5px;
 				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
